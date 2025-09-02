@@ -1,0 +1,91 @@
+html {
+  background-color: #287b89;
+}
+
+.titulo {
+  font-size: 3rem;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.selecao {
+  float: left;
+  width: 30%;
+  background-color: red;
+}
+
+.imagens {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 5px;
+}
+
+.textinho {
+  color: darkblue;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.fotoEsquerda {
+  width: 4rem;
+  height: auto;
+  border: solid 3px;
+  border-radius: 8rem;
+  background-color: whitesmoke;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  color: green;
+  background-color: deeppink;
+}
+
+.textoCounter {
+  font-size: 3rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+.fotoCounter {
+  width: 10rem;
+  height: auto;
+  border: solid 3px;
+  border-radius: 8rem;
+  background-color: whitesmoke;
+}
+
+.fotoCounterGrupo {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+  padding: 3rem;
+}
+
+.textoSecundarioCounter {
+  font-size: 3rem;
+  padding: 0px;
+  margin: 0px;
+}
+
+.roleName {
+  text-align: center;
+  font-size: 3rem;
+  padding: 0px;
+  margin: 0px;
+}
